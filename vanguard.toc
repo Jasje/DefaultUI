@@ -1,0 +1,8 @@
+## Interface: 50100
+## Author: Jasje
+## Version: 1.0
+## Title: Vanguard UI scripts
+## Notes: all-in-one addon containing vanguard scripts
+
+
+vanguard.lua
