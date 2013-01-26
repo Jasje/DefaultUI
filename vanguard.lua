@@ -20,7 +20,7 @@ LoadAddOn("Blizzard_ArenaUI")
     PartyMemberFrame3:SetScale(1.6)
     PartyMemberFrame4:SetScale(1.6)
 
---adding this so it stops resseting after you entered a vehicle
+--[[adding this so it stops resseting after you entered a vehicle
 --if not UnitHasVehicleUI("player") then return end
     --hooking playerframe so it wont reset
 	hooksecurefunc("PlayerFrame_ResetPosition", function(self)
@@ -40,7 +40,7 @@ LoadAddOn("Blizzard_ArenaUI")
 	FocusFrame:ClearAllPoints()
 	FocusFrame:SetPoint("CENTER", UIParent, "LEFT", -200, 110)
 	FocusFrame:SetUserPlaced(true)
-
+]]--
 --some events need to register	
 local f = CreateFrame("FRAME")
     f:RegisterEvent("PARTY_MEMBERS_CHANGED") 
